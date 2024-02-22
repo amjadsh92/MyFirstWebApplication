@@ -1,0 +1,111 @@
+fieldset.General {
+  background: url(../Assets/pexels-photo-82256.webp);
+  border: 10px solid #888;
+  border-right: 10px solid #666;
+  border-bottom: 10px solid #666;
+  max-width: 500px;
+  padding: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend.General {
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 10px;
+  font-family: "Fantasy";
+}
+
+button.General {
+  background-color: grey;
+  border: 1px;
+  border-radius: 15px;
+  color: white;
+  padding: 4px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  margin-top: auto;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+label.General {
+  color: #0a0a23;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button.General:hover {
+  transform: scale(1.1);
+}
+
+textarea.General {
+  width: 350px;
+
+  height: 100px;
+}
+
+.link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.link:hover {
+  background-color: #111;
+}
+
+div.General {
+  background: url(../Assets/pexels-photo-1166644.webp);
+  background-size: "cover";
+  height: 100%;
+}
+
+div.RenderItemDetails {
+  background: url(../Assets/dse-large.jpg);
+  position: relative;
+  border: 5px solid rgba(0, 0, 0, 0.959);
+  padding: 40px;
+  margin: 10px;
+}
+
+div.RenderOverviewList {
+  display: flex;
+}
+
+button.Hide {
+  position: absolute;
+  bottom: 10px;
+  right: 8px;
+  background-color: rgba(128, 128, 128, 0.625);
+}
+
+button.Hide:hover {
+  transform: scale(1.1);
+}
+
+p.todoAppTask {
+  background-color: AliceBlue;
+  box-sizing: border-box;
+  width: 380px;
+  height: 23px;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 3px;
+  margin: 2px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: small;
+  border: 3px solid;
+  border-color: grey;
+  border-radius: 50px;
+  color: black;
+}
